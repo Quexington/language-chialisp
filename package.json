@@ -5,8 +5,13 @@
   "engines": {
     "atom": "*"
   },
-  "dependencies": {},
-  "repository": {},
+  "dependencies": {
+    "tree-sitter-chialisp": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quexington/language-chialisp.git"
+  },
   "bugs": {},
   "license": "MIT"
 }

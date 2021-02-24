@@ -5,7 +5,26 @@ parser: 'tree-sitter-chialisp'
 fileTypes: [
   'clvm'
 ]
-firstLineRegex: '^\(mod.+'
-contentRegex: '^\(mod.+'
+firstLineRegex: /^\(mod.+/
+contentRegex: /^\(mod.+/
 scopes:
-  'mod_definition': 'entity.name.class'
+  'mod_definition': 'meta.class'
+  'parameter': 'variable.parameter function'
+  'multiple_parameters': 'variable.parameter function'
+  'comment': 'comment'
+  'integer': 'constant.numeric'
+  'hexadecimal': 'constant.numeric'
+  'string': 'string' #strings will terminate with either ['"`] regardless of the first character.
+  'variable': 'variable.parameter'
+  'function_def': 'storage.type function'
+  'function_identifier': 'entity.name.function'
+  'function_call': 'entity.name.function'
+  'constant_def': 'storage.type function'
+  'constant_ref': 'constant.other'
+  'list_op': 'constant.numeric'
+  'if': 'keyword.control'
+  'raise': 'support.function'
+  'ops': 'support.function'
+  'quote': 'string'
+  'builtin': 'support.function'
+  'opcode': 'support.function'
