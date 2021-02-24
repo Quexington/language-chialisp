@@ -1,0 +1,11 @@
+name: 'Chialisp'
+scopeName: 'source.clvm'
+type: 'tree-sitter'
+parser: 'tree-sitter-chialisp'
+fileTypes: [
+  'clvm'
+]
+firstLineRegex: '^\(mod.+'
+contentRegex: '^\(mod.+'
+scopes:
+  'mod_definition': 'entity.name.class'
