@@ -5,8 +5,6 @@ parser: 'tree-sitter-chialisp'
 fileTypes: [
   'clvm'
 ]
-firstLineRegex: /^\(mod.+/
-contentRegex: /^\(mod.+/
 scopes:
   'mod_definition': 'meta.class'
   'parameter': 'variable.parameter function'
