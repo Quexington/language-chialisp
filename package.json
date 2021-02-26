@@ -1,6 +1,6 @@
 {
   "name": "language-chialisp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Chialisp language support in Atom",
   "author": "Quexington <quexington@gmail.com>",
   "engines": {
