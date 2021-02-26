@@ -7,7 +7,7 @@
     "atom": "*"
   },
   "dependencies": {
-    "tree-sitter-chialisp": "^1.0.3"
+    "tree-sitter-chialisp": "^1.0.8"
   },
   "repository": "https://github.com/Quexington/language-chialisp.git",
   "bugs": {},
