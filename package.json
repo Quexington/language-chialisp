@@ -2,16 +2,14 @@
   "name": "language-chialisp",
   "version": "1.0.0",
   "description": "Chialisp language support in Atom",
+  "author": "Quexington <quexington@gmail.com>",
   "engines": {
     "atom": "*"
   },
   "dependencies": {
     "tree-sitter-chialisp": "^1.0.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Quexington/language-chialisp.git"
-  },
+  "repository": "https://github.com/Quexington/language-chialisp.git",
   "bugs": {},
   "license": "MIT"
 }
