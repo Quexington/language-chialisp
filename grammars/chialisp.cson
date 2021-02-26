@@ -5,6 +5,8 @@ parser: 'tree-sitter-chialisp'
 fileTypes: [
   'clvm'
 ]
+comments:
+  start: ';'
 scopes:
   'mod_definition': 'meta.class'
   'parameter': 'variable.parameter function'
@@ -12,6 +14,7 @@ scopes:
   'comment': 'comment'
   'integer': 'constant.numeric'
   'hexadecimal': 'constant.numeric'
+  'false': 'constant.numeric'
   'string': 'string' #strings will terminate with either ['"`] regardless of the first character.
   'variable': 'variable.parameter'
   'function_def': 'storage.type function'
