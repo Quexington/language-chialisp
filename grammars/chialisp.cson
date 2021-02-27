@@ -23,6 +23,7 @@ scopes:
   'constant_def': 'storage.type function'
   'constant_ref': 'constant.other'
   'list_op': 'constant.numeric'
+  'list': 'constant.numeric'
   'if': 'keyword.control'
   'raise': 'support.function'
   'ops': 'support.function'
