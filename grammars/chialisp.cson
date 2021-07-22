@@ -3,7 +3,9 @@ scopeName: 'source.clvm'
 type: 'tree-sitter'
 parser: 'tree-sitter-chialisp'
 fileTypes: [
-  'clvm'
+  'clvm',
+  'clsp',
+  'clib'
 ]
 comments:
   start: ';'
